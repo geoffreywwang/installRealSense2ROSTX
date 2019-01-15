@@ -69,7 +69,7 @@ rosdep update
 echo "Cloning Intel ROS realsense package"
 git clone https://github.com/intel-ros/realsense.git
 cd realsense
-git checkout 2.0.3
+git checkout 2.1.3
 cd ../..
 echo "Making Intel ROS realsense"
 sudo rosdep -y install --from-paths src --ignore-src --rosdistro kinetic
